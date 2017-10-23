@@ -18,7 +18,15 @@ int main(int argc, char* argv[])
 		cout << "Error!" << endl;
 		getch();
 	}
-
+                                	else {
+		if (x == 19)
+			y = (sqrt(x)) / (10 * x + 1);
+		else
+			if (x == 0)
+				y = (sqrt(x))/ (10 * x + 1);
+			else
+				if (x == 10)
+					y = 654;
 
 				else
 					y = pow(x, 4);
